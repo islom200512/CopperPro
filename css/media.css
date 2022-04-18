@@ -1,0 +1,246 @@
+    @media screen and (max-width:1200px) {
+        .header {
+            height: 770px;
+        }
+        .header_box_pos2 {
+            right: 50px;
+        }
+        .header_box_pos3 {
+            right: 120px;
+        }
+        .header_box_pos1 {
+            right: 190px;
+        }
+        .item_navbar:nth-child(2) {
+            width: 450px;
+        }
+        .mainTwo_flex_text {
+            max-width: 160px;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .footer_list {
+            display: block;
+        }
+        .footer_item {
+            margin-bottom: 50px;
+        }
+        .footer_list_two {
+            width: 100%;
+        }
+        .list_navbar {
+            display: block;
+        }
+        .navbar_logo {
+            margin-right: 30px;
+            margin-bottom: 50px;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .strelki {
+            display: none;
+        }
+        .strelki2 {
+            display: none;
+        }
+        .header {
+            background-image: url(../assets/images/BG\ tablet.png);
+            height: 1024px;
+        }
+        .container {
+            max-width: 670px;
+        }
+        .list_navbar {
+            flex-direction: column;
+            align-items: start;
+        }
+        .navbar_logo {
+            margin-bottom: 50px;
+            margin-right: 0;
+            padding-top: 30px;
+        }
+        .mainFour {
+            background-image: url(../assets/images/bg\ tablet\ 2.png);
+            height: 483px;
+        }
+        .header_section_content_button2 {
+            margin-bottom: 50px;
+        }
+        .footer_list {
+            flex-direction: column;
+        }
+        .footer_item:first-child {
+            margin-bottom: 48px;
+        }
+        .footer_item_text {
+            margin-bottom: 5px;
+        }
+        .mainFour {
+            margin-bottom: 80px;
+        }
+        .footer_list_two {
+            width: 100%;
+        }
+        .footer_item {
+            margin: auto;
+        }
+        .last_content_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .navbar {
+            margin-bottom: 150px;
+        }
+    }
+    
+    @media screen and (max-width:566px) {
+        .last_content_box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .header_box_pos4 {}
+        .header_box_pos2 {}
+        .item_navbar:last-child {}
+        .navbar {
+            margin-bottom: 55px;
+        }
+        .header_section_content_title {
+            font-family: 'Lighthaus';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 114.9%;
+            /* or 34px */
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+        .header_section_content_info {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 128.4%;
+            /* or 26px */
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+        .header {
+            background-image: url(../assets/images/BG\ tel.png);
+            height: 729px;
+        }
+        .header_section_content_price_text {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 96.4%;
+            /* or 15px */
+            color: #FFFFFF;
+        }
+        .header_section_content_button {
+            margin-bottom: 200px;
+            padding: 16px 70px;
+        }
+        .header_section_content_price_number {
+            font-family: 'Mont';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 96.4%;
+            /* or 15px */
+            color: #FFFFFF;
+        }
+        .mainFour {
+            background-image: url(../assets/images/bg\ tel\ 2.png);
+            height: 772px;
+        }
+        .header_box_pos3 {
+            right: 130px;
+        }
+        .header_box_pos1 {
+            right: 200px;
+        }
+        .header_section_content_button2 {
+            padding: 16px 63px;
+        }
+        .header_box_pos2 {
+            right: 60px;
+        }
+        .header_section_content_box {
+            max-width: 200px;
+        }
+        .header_section_content_price_text {
+            margin-right: 50px;
+        }
+        .footer_item_two {
+            margin-right: 40px;
+        }
+        .footer_list_two {
+            flex-wrap: wrap;
+        }
+        .last_title {
+            line-height: 100%;
+        }
+        .pre_last_title {
+            line-height: 100%;
+        }
+        .mainTwo_title {
+            line-height: 100%;
+        }
+    }
+    
+    @media screen and (max-width:475px) {
+        .item_navbar:nth-child(2) {
+            display: none;
+        }
+        .header_box_pos1 {
+            width: 35px;
+            right: 150px;
+        }
+        .header_box_pos2 {
+            width: 35px;
+            right: 50px;
+        }
+        .header_box_pos3 {
+            width: 35px;
+            right: 100px;
+        }
+        .header_box_pos4 {
+            display: flex;
+        }
+        .footer_item_two {
+            margin-right: 10px;
+        }
+    }
+    
+    @media screen and (max-width:365px) {
+        .header_box_pos1 {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:315px) {
+        .header_box_pos1 {
+            display: none;
+        }
+        .header_box_pos2 {
+            width: 35px;
+            right: 50px;
+            display: none;
+        }
+        .header_box_pos3 {
+            width: 35px;
+            right: 100px;
+            display: none;
+        }
+    }
